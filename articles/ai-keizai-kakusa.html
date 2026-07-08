@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIを「使う人」と「使わない人」——静かに広がる経済格差 | DefenseWatch Japan</title>
+<meta name="description" content="生成AIを使う人と使わない人の間で広がる経済格差を、総務省・情報通信白書やPwC・OECDの具体的データに基づいて解説します。日本人の生成AI個人利用率は26.7%。">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5a6570; --line:#e4e8ec;
+    --accent:#0b5cad; --accent-soft:#e8f1fb; --card:#f7f9fb; --warn:#b3541e;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#12151a; --fg:#e7ebef; --muted:#9aa5b1; --line:#2a313a;
+      --accent:#5fa8f0; --accent-soft:#182634; --card:#181c22; --warn:#e0a06a;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;
+    line-height:1.85; font-size:17px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 80px}
+  header.top{border-bottom:1px solid var(--line); padding:16px 0; margin-bottom:40px}
+  header.top a{color:var(--accent); text-decoration:none; font-weight:700; font-size:15px}
+  .kicker{color:var(--accent); font-weight:700; font-size:13px; letter-spacing:.08em; margin:40px 0 10px}
+  h1{font-size:clamp(1.7rem,5vw,2.4rem); line-height:1.35; margin:.1em 0 .5em; letter-spacing:.01em}
+  .lede{font-size:1.15rem; color:var(--muted); margin-bottom:22px}
+  .meta{font-size:13px; color:var(--muted); border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:12px 0; margin-bottom:40px}
+  h2{font-size:1.5rem; margin:56px 0 16px; padding-top:8px; letter-spacing:.01em}
+  h3{font-size:1.15rem; margin:34px 0 10px}
+  p{margin:0 0 20px}
+  a{color:var(--accent)}
+  strong{font-weight:700}
+  .stat-hero{
+    background:var(--accent-soft); border-radius:14px; padding:28px 26px; margin:28px 0;
+    display:flex; gap:24px; align-items:baseline; flex-wrap:wrap;
+  }
+  .stat-hero .num{font-size:3.4rem; font-weight:800; color:var(--accent); line-height:1}
+  .stat-hero .lbl{font-size:1rem; color:var(--fg); flex:1; min-width:200px}
+  figure{margin:32px 0; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px 22px}
+  figure figcaption{font-size:13px; color:var(--muted); margin-top:14px}
+  .barrow{display:grid; grid-template-columns:96px 1fr 62px; align-items:center; gap:10px; margin:11px 0; font-size:14px}
+  .barrow .name{font-weight:600; text-align:right}
+  .bartrack{background:var(--line); border-radius:6px; height:22px; overflow:hidden}
+  .barfill{height:100%; border-radius:6px; background:var(--accent)}
+  .barfill.jp{background:var(--warn)}
+  .barrow .val{font-variant-numeric:tabular-nums; font-weight:700; color:var(--muted)}
+  .callout{border-left:4px solid var(--accent); background:var(--card); padding:14px 18px; border-radius:0 10px 10px 0; margin:26px 0}
+  .callout p{margin:0}
+  table{width:100%; border-collapse:collapse; margin:24px 0; font-size:15px}
+  th,td{padding:10px 12px; text-align:left; border-bottom:1px solid var(--line)}
+  th{color:var(--muted); font-weight:700; font-size:13px}
+  td.n{font-variant-numeric:tabular-nums; font-weight:700; text-align:right}
+  .sources{font-size:14px; color:var(--muted); margin-top:56px; border-top:1px solid var(--line); padding-top:24px}
+  .sources li{margin-bottom:8px}
+  .disc{font-size:13px; color:var(--muted); margin-top:32px; font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap" style="padding-bottom:0"><a href="../">🛡 DefenseWatch Japan</a></div></header>
+
+<article class="wrap">
+
+  <div class="kicker">テクノロジーと社会</div>
+  <h1>AIを「使う人」と「使わない人」——静かに広がる経済格差</h1>
+  <p class="lede">生成AIが登場して数年。便利な道具として話題になる一方で、その裏側では「使う人」と「使わない人」の間に、給料・生産性・キャリアの格差が静かに、しかし確実に広がり始めている。数字で見てみよう。</p>
+  <div class="meta">2026年7月8日 &nbsp;·&nbsp; データ出典：総務省「令和7年版 情報通信白書」／PwC／OECD</div>
+
+  <h2>まず現実：日本人の約4人に1人しか使っていない</h2>
+  <p>総務省が2025年7月に公表した<strong>「令和7年版 情報通信白書」</strong>によれば、日本で生成AI（ChatGPTなどの対話型AIサービス）を<strong>「使ったことがある」と答えた人は26.7%</strong>にとどまった。前年調査から約3倍に伸びたとはいえ、依然として国民の4人に3人は生成AIに触れていない計算だ。</p>
+
+  <div class="stat-hero">
+    <div class="num">26.7%</div>
+    <div class="lbl">日本の生成AI個人利用（経験）率。<br>裏を返せば、<strong>73%はまだ使っていない</strong>。</div>
+  </div>
+
+  <p>問題は、これが「日本人は慎重だから」で済む話ではないことだ。世界の主要国と並べると、差は歴然としている。</p>
+
+  <figure>
+    <div class="barrow"><span class="name">中国</span><div class="bartrack"><div class="barfill" style="width:81%"></div></div><span class="val">81.2%</span></div>
+    <div class="barrow"><span class="name">米国</span><div class="bartrack"><div class="barfill" style="width:69%"></div></div><span class="val">68.8%</span></div>
+    <div class="barrow"><span class="name">ドイツ</span><div class="bartrack"><div class="barfill" style="width:59%"></div></div><span class="val">59.2%</span></div>
+    <div class="barrow"><span class="name">日本</span><div class="bartrack"><div class="barfill jp" style="width:27%"></div></div><span class="val">26.7%</span></div>
+    <figcaption>生成AIの個人利用率の国際比較（2024年度調査）。日本の利用率は米国の約4割、中国の約3割の水準にとどまる。出典：総務省「令和7年版 情報通信白書」</figcaption>
+  </figure>
+
+  <p>日本の利用率は、<strong>米国のおよそ4割、中国のおよそ3割</strong>。国民レベルで見ると、日本は「AIを使う社会」への移行で明確に出遅れている。</p>
+
+  <h2>世代でも割れている——若者と高齢層の断層</h2>
+  <p>国内をさらに分解すると、格差は世代の間にもある。情報通信白書の年代別データはこうだ。</p>
+
+  <table>
+    <thead><tr><th>年代</th><th style="text-align:right">生成AI利用率</th></tr></thead>
+    <tbody>
+      <tr><td>20代</td><td class="n">44.7%</td></tr>
+      <tr><td>40代</td><td class="n">29.6%</td></tr>
+      <tr><td>30代</td><td class="n">23.8%</td></tr>
+      <tr><td>50代</td><td class="n">19.9%</td></tr>
+      <tr><td>60代</td><td class="n">15.5%</td></tr>
+    </tbody>
+  </table>
+
+  <p>最も高い20代（44.7%）と最も低い60代（15.5%）では、約3倍の開きがある。しかも「使わない理由」の第1位は<strong>「生活や業務に必要ない」（4割超）</strong>、僅差の第2位が<strong>「使い方がわからない」（4割近く）</strong>だった。つまり多くの人は、必要性を感じる前に選択肢から外している。この「触れないから価値がわからない → だから触れない」という循環こそが、格差を固定化させる。</p>
+
+  <h2>ここからが本題——なぜ「経済格差」になるのか</h2>
+  <p>利用率の差は、それ自体では単なる好みの問題に見えるかもしれない。だが労働市場のデータを重ねると、この差が<strong>収入の差</strong>に直結し始めていることが分かる。</p>
+
+  <h3>① AIスキルには「56%の賃金プレミアム」がついている</h3>
+  <p>コンサルティング大手PwCが世界の求人・給与を分析した<strong>「2025 Global AI Jobs Barometer」</strong>によると、AIスキルを求める職種の賃金は、同じ分野の他職種より平均<strong>56%高い</strong>。前年（2024年版）の調査ではこの上乗せは25%だったので、<strong>1年で2倍以上に拡大</strong>したことになる。業種によっては最大118%、つまり給料が2倍を超えるケースもある。</p>
+
+  <div class="stat-hero">
+    <div class="num">+56%</div>
+    <div class="lbl">AIスキルを要する職種に付く<strong>賃金プレミアム</strong>（PwC 2025）。前年の+25%から急拡大。</div>
+  </div>
+
+  <h3>② AIを使う産業は生産性が「約4倍速」で伸びている</h3>
+  <p>同じPwCの分析では、AIの活用が進んだ産業の労働生産性の伸びは、そうでない産業の<strong>およそ4倍</strong>に達している。生産性が上がれば、企業はより高い賃金を払える。つまり「AIを使う側」に立つ人ほど、給料が上がりやすい構造ができつつある。個人の努力量が同じでも、道具を使うかどうかで成果に差がつくのだ。</p>
+
+  <h3>③ 使わない企業に勤めていると、その差を個人が背負う</h3>
+  <p>格差は個人だけでなく企業単位でも生まれている。日本で生成AIの活用方針を定めている企業は<strong>49.7%</strong>（2024年度）。一方、<strong>米国は84.8%、中国は92.8%</strong>だ。「メールや議事録・資料作成の補助」といった基本的な業務利用ですら、日本は32.1%に対し、米国75.0%・中国78.0%と2倍以上の開きがある。OECD（2025年）の調査でも、日本の中小企業の生成AI利用率は<strong>23.5%と調査国中で最低</strong>（最高はドイツの38.7%）だった。</p>
+  <p>働く側から見れば、AIを導入しない会社にいる限り、たとえ本人にスキルがあっても、その果実（=生産性向上と賃金上昇）を受け取りにくい。<strong>個人の格差と組織の格差が掛け算</strong>になる。</p>
+
+  <div class="callout">
+    <p><strong>ここまでの構図を整理すると——</strong><br>
+    ・国民の73%はまだ生成AIを使っていない（総務省）<br>
+    ・AIスキルには平均+56%の賃金プレミアムが付く（PwC）<br>
+    ・AIを使う産業は生産性が約4倍速で伸びる（PwC）<br>
+    ・日本企業の導入率は米中の6割前後の水準（総務省・OECD）<br>
+    → 「使う人・使う会社」に富とチャンスが集まり、「使わない人・使わない会社」が取り残される二極化が始まっている。</p>
+  </div>
+
+  <h2>これは「才能の差」ではなく「アクセスの差」だ</h2>
+  <p>重要なのは、この格差の正体が<strong>能力や才能の差ではなく、"使い始めたかどうか"というアクセスの差</strong>だという点だ。生成AIの多くは無料または月額数千円で、スマートフォンひとつあれば今日から触れられる。参入障壁は、歴史的な技術革新の中でも極端に低い。</p>
+  <p>にもかかわらず格差が広がるのは、「必要ないと思っている」「使い方がわからない」という<strong>心理的・情報的なハードル</strong>が入口を塞いでいるからだ。逆に言えば、この入口を越えるだけで、多くの人が格差の「有利な側」に回れる。産業革命やインターネット普及の初期にも、道具を早く手に取った人・組織が先行者利益を得た。今まさに同じことが、はるかに速いスピードで起きている。</p>
+
+  <h2>取り残されないために、個人ができること</h2>
+  <p>大がかりな準備はいらない。格差の分岐点は、意外なほど手前にある。</p>
+  <p><strong>1. まず「毎日の1タスク」をAIに渡してみる。</strong>メールの下書き、長文の要約、調べ物の下調べ——完璧を求めず、日常業務の一部を試しに任せることから始める。「必要ない」の多くは、使ってみる前の思い込みだ。</p>
+  <p><strong>2. 使い方を"検索"から"相談"へ切り替える。</strong>キーワードを打ち込む代わりに、状況を説明して相談する。この対話の作法に慣れることが、そのまま「AIスキル」の中身になる。</p>
+  <p><strong>3. 職場に小さく持ち込む。</strong>個人の利用が、やがて組織の導入につながる。企業単位の格差を埋める最初の一歩は、現場の一人ひとりの利用実績であることが多い。</p>
+  <p>生成AIをめぐる格差は、地震のようにある日突然襲ってくるものではない。日々の小さな差が積み重なって、数年後に大きな開きになる。<strong>そして今なら、まだ有利な側に回るための入口は、誰にでも開いている。</strong></p>
+
+  <div class="sources">
+    <strong>主な出典</strong>
+    <ul>
+      <li>総務省「令和7年版 情報通信白書」個人におけるAI利用の現状（2025年7月公表） — 日本の生成AI個人利用率26.7%、年代別利用率、国際比較（中国81.2%・米国68.8%・ドイツ59.2%）</li>
+      <li>総務省「令和7年版 情報通信白書」企業におけるAI利用の現状 — 企業の生成AI活用方針（日本49.7%・米国84.8%・中国92.8%）</li>
+      <li>PwC「2025 Global AI Jobs Barometer」 — AIスキルの賃金プレミアム+56%、AI関連産業の労働生産性の伸び（約4倍）</li>
+      <li>OECD「Artificial Intelligence and the Labour Market in Japan」(2025) — 日本の中小企業の生成AI利用率23.5%（調査国中最低）</li>
+    </ul>
+  </div>
+
+  <p class="disc">※本記事は公表された統計・調査に基づく解説であり、特定の投資・就職・行動を推奨するものではありません。数値は各調査時点のものです。</p>
+
+</article>
+</body>
+</html>
